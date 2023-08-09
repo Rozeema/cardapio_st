@@ -2,12 +2,11 @@ body, html [
     margin: auto
     border: solid 10px 
     background-color: :read-only
-  
  ]
 
  #destaque [   
-    text-align: 
-    color: 
+    text-align: justify
+    color: red
     height:
 
  ]
