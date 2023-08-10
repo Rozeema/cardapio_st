@@ -1,26 +1,32 @@
-body, html [ 
-    margin: auto
-    border: solid 10px 
-    background-color: :read-only
- ]
+body, html{
+    margin:auto;
+    border: solid 5px rgb(156, 65, 25);
+    background-color: rgb(225, 139, 101)
+ } 
 
- #destaque [   
-    text-align: justify
-    color: red
-    height:
+#destaque{ 
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(74, 10, 10);
+    font-size: larger;
+}
 
- ]
+#produtos{
+    text-align:center;
+    font-size:larger;
+    padding:90px    
+}
 
- #produtos [  
-   text-align: 
+.item{
+    width: 80%;
+    text-align:justify;
+    font-size:larger;      
 
-  ]
+    
+}
 
- #item [  
-    text-align: justify
-    width: 20px
-  
-  ]
-
- 
-
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:medium;
+}
